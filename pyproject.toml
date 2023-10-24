@@ -1,0 +1,18 @@
+[project]
+name = "8trider-api"
+version = "0.2.0"
+description = "apply fastapi"
+authors = [
+    {name = "8trider", email = "8trider@naver.com"},
+]
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.23.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
